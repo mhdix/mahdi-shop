@@ -1,10 +1,9 @@
-import React from 'react'
+import React, { Component, ComponentProps } from 'react'
 
-interface TButton {
-  children: React.ReactNode;
-}
-function Button({ children }: TButton) {
-  return <button>{children}</button>;
+type TButton = ComponentProps<'button'>
+
+function Button({ children, ...rest }: TButton) {
+  return <button {...rest}>{children}</button>;
 }
 
 export default Button
