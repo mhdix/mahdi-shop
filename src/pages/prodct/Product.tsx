@@ -23,11 +23,18 @@ function Product() {
 
           <div className="col-span-2 p-4 bg-cyan-200">
             <img src="" className="border px-14 py-10 w-24 rounded" alt="" />
-            <Button onClick={() => alert('fsdf')} variant='varning' >Add to cart</Button>
+            <Button onClick={() => alert("fsdf")} style={{padding: '40px'}} variant="secondary">
+              Add to cart 
+            </Button>
+            <Button onClick={() => alert("fsdf")} variant="varning">
+              Add to cart
+            </Button>
+            <Button onClick={() => alert("fsdf")} variant="primary">
+              Add to cart
+            </Button>
           </div>
 
-          <div>
-          </div>
+          <div></div>
         </div>
       </Container>
     </div>
