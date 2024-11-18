@@ -8,10 +8,10 @@ interface ILayout {
 
 function Layout({ children }: ILayout) {
   return (
-    <>
+    <div>
       <Nav />
       {children}
-    </>
+    </div>
   );
 }
 

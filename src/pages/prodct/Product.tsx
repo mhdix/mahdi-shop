@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import Container from "../../components/container/container";
 import Button from "../../components/button/Button";
+import Img from "../../components/img/Img";
 
 function Product() {
   const params = useParams();
@@ -22,15 +23,9 @@ function Product() {
           </div>
 
           <div className="col-span-2 p-4 bg-cyan-200">
-            <img src="" className="border px-14 py-10 w-24 rounded" alt="" />
-            <Button onClick={() => alert("fsdf")} style={{padding: '40px'}} variant="secondary">
+            <Img />
+            <Button className="mt-2 w-full !py-3" variant="primary">
               Add to cart 
-            </Button>
-            <Button onClick={() => alert("fsdf")} variant="varning">
-              Add to cart
-            </Button>
-            <Button onClick={() => alert("fsdf")} variant="primary">
-              Add to cart
             </Button>
           </div>
 

@@ -14,7 +14,9 @@ const Nav = () => {
               <Link to="/store">فروشگاه</Link>
             </li>
           </ul>
-          <div>سبد خرید</div>
+          <div>
+            <Link to='/cart'>سبد خرید</Link>
+          </div>
         </div>
       </Container>
     </div>

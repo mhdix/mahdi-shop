@@ -1,9 +1,10 @@
 import React from "react";
+import Img from "../img/Img";
 
 function ProductItem() {
   return (
     <div className="shadow border rounded pb-4">
-      <img src="" className="p-10 py-16 border border-red-300 rounded" alt="" />
+      <Img />
       <div className="flex justify-between flex-row-reverse px-4 mt-2">
         <h3>عنوان محصول</h3>
         <span>55$</span>
